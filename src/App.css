@@ -72,3 +72,16 @@
   margin: 0;
   font-size: 14px;
 }
+.myButton {
+  border: none;
+  background: none;
+}
+.myButton:active {
+  font-weight: 900;
+}
+
+.cont {
+  margin: 0;
+  font-size: 14px;
+  background-color: red;
+}

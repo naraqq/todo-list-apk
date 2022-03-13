@@ -1,10 +1,10 @@
 import React from 'react';
 
-function FooterDiv() {
+function FooterDiv(props) {
     return ( 
         <div className='footdiv'>
-          <p className='para'>You have 2 pending tasks</p>
-          <button className=' btn-danger my-btn'>Clear All</button>
+          <p className='para'>You have {props.arrLength} pending tasks</p>
+          <button onClick={props.clearAll} className=' btn-danger my-btn'>Clear All</button>
         </div>
      );
 }
